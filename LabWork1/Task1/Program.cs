@@ -4,7 +4,7 @@ namespace LabWork1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)////////////////////////////////////////////////////////////////////
         {
             menu();
         }
@@ -48,14 +48,14 @@ namespace LabWork1
                 double x = double.Parse(Console.ReadLine());
                 double result = a * Math.Pow(x,4) - b * Math.Pow(x,3) + c * x + d;
                 Console.Write("Your result p = ");
-                Console.WriteLine(result); 
+                Console.WriteLine(result);
             }
             catch (Exception e)
             {
                 Console.WriteLine("Something went wrong!");
                 throw;
             }
-           
+
         }
         static void Task2()
         {
@@ -106,14 +106,14 @@ namespace LabWork1
                 else
                 {
                     Console.WriteLine("Error!");
-                } 
+                }
             }
             catch (Exception e)
             {
                 Console.WriteLine("Something went wrong!");
                 throw;
             }
-            
+
         }
         static void Task4()
         {
@@ -155,15 +155,15 @@ namespace LabWork1
                 Console.WriteLine("Something went wrong!");
                 throw;
             }
-            
+
         }
         static void Task5()
         {
             try
             {
                 Console.Write("\nWrite the number of diapazon:");
-                int N = int.Parse(Console.ReadLine()); 
-                int sum = 0; 
+                int N = int.Parse(Console.ReadLine());
+                int sum = 0;
                 for (int i = 0; i < N; i++)
                 {
                     Console.WriteLine("value= ");
