@@ -11,7 +11,7 @@ namespace LabWork1
 
         static void menu()
         {
-            Console.Write("\nВиберiть завдання лабораторної: ");
+            Console.Write("\nВиберiть завдання лабораторно: ");
             int choose = int.Parse(Console.ReadLine());
             switch (choose)
             {
