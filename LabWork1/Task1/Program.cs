@@ -4,7 +4,7 @@ namespace LabWork1
 {
     internal class Program
     {
-        static void Main(string[] args)///////////////////////////////////ASS/////////////////////////////////
+        static void Main(string[] args)
         {
             menu();
         }
